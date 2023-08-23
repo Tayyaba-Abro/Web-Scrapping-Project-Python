@@ -76,8 +76,8 @@ df.to_csv(r'C:\Users\Asad Ali\Desktop\Courses\Alex the Analyst\Python/Companies.
 ```
 
 ## Key Takeways:
-**Web Scraping Skills:** You've gained valuable experience in web scraping, which is a powerful technique for extracting data from websites for various purposes.
-- **Beautiful Soup:** You've become familiar with Beautiful Soup, a Python library that simplifies web scraping by parsing HTML and XML documents.
-- **Pandas for Data Manipulation:** You've used Pandas to organize and manipulate the extracted data, demonstrating how versatile it is for data analysis tasks.
+- **Web Scraping Skills:** Gained valuable experience in web scraping, which is a powerful technique for extracting data from websites for various purposes.
+- **Beautiful Soup:** Become familiar with Beautiful Soup, a Python library that simplifies web scraping by parsing HTML and XML documents.
+- **Pandas for Data Manipulation:** Used Pandas to organize and manipulate the extracted data, demonstrating how versatile it is for data analysis tasks.
 
 
