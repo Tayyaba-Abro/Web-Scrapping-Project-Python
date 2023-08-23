@@ -10,4 +10,16 @@ Welcome to my web scraping project that extracts data from the [List of Largest 
 The primary goal of this project is to demonstrate how web scraping can be used to gather valuable information from websites and present it in a structured format.
 
 ## Web Scrap Code:
+Step 1: Import Required Libraries
 
+
+from bs4 import BeautifulSoup
+import requests
+
+Step 1: Import Required Libraries
+
+python
+Copy code
+from bs4 import BeautifulSoup
+import requests
+Step 2: Define the URL of the Website
