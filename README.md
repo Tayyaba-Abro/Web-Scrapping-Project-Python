@@ -9,17 +9,70 @@ Welcome to my web scraping project that extracts data from the [List of Largest 
 
 The primary goal of this project is to demonstrate how web scraping can be used to gather valuable information from websites and present it in a structured format.
 
-## Web Scrap Code:
-Step 1: Import Required Libraries
+## Web Scrapping Step by Step:
 
+Certainly, here are the steps to extract a table from a website using Python and Beautiful Soup:
 
+**Step 1: Import Required Libraries**
+```python
 from bs4 import BeautifulSoup
 import requests
+```
 
-Step 1: Import Required Libraries
+**Step 2: Define the URL of the Website**
+```python
+url = "https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue"
+```
 
-python
-Copy code
-from bs4 import BeautifulSoup
-import requests
-Step 2: Define the URL of the Website
+**Step 3: Send a GET Request and Parse HTML**
+```python
+page = requests.get(url)
+soup = BeautifulSoup(page.text, 'html.parser')
+```
+
+**Step 4: Locate the Table**
+```python
+table = soup.find('table', class_='wikitable sortable')
+```
+
+**Step 5: Extract Data from the Table**
+```python
+rows = table.find_all('table')[1]
+     print(row)
+```
+
+**Step 6: Extract Header from the Table**
+```python
+world_titles = table.find_all('th')
+   world_table_titles = [title.text.strip() for title in world_titles]
+   print(world_table_titles)
+```
+
+**Step 7: Create a Pandas DataFrame**
+```python
+import pandas as pd
+df = pd.DataFrame(columns=world_table_titles)
+```
+
+**Step 8: Extract Data from Rows**
+```python
+column_data = table.find_all('tr')
+for row in column_data[1:]:
+    row_data = row.find_all('td')
+    individual_row_data = [data.text.strip() for data in row_data]
+    print(individual_row_data)
+    length = len(df)
+    df.loc[length] = individual_row_data
+```
+
+**Step 9: Display the DataFrame**
+```python
+print(df)
+```
+
+**Step 10: Save Data to CSV**
+```python
+df.to_csv(r'C:\Users\Asad Ali\Desktop\Courses\Alex the Analyst\Python/Companies.csv', 
+```
+
+
