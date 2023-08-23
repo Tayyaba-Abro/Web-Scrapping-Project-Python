@@ -2,7 +2,8 @@
 
 ![largest-companies-by-revenue-state](https://github.com/Tayyaba-Abro/Web-Scrapping-Project-Python/assets/47588244/22f2ce7f-c157-46f1-84f0-492427469c94)
 
-Photo Credit: [Visual Capitalist](https://github.com/Tayyaba-Abro/Web-Scrapping-Project-Python/assets/47588244/974eb9ce-825a-408a-99e4-37c31a7f9e80)
+Photo Credit: [Visual Capitalist](https://github.com/Tayyaba-Abro/Web-Scrapping-Project-Python/assets/47588244/4ca7c360-d428-4d91-992e-8b4befee4e1e)
+
 
 
 ## Project Overview:
