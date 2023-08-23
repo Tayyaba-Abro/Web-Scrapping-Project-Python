@@ -1,10 +1,7 @@
 # Web Scrapping Project - List of Largest United State Companies by Revenue
 
-![largest-companies-by-revenue-state](https://github.com/Tayyaba-Abro/Web-Scrapping-Project-Python/assets/47588244/22f2ce7f-c157-46f1-84f0-492427469c94)
-
-Photo Credit: [Visual Capitalist](https://github.com/Tayyaba-Abro/Web-Scrapping-Project-Python/assets/47588244/f74cdb5d-2c28-4dff-9f61-5901b4bafbf2)
-
-
+![262727518-22f2ce7f-c157-46f1-84f0-492427469c94](https://github.com/Tayyaba-Abro/Web-Scrapping-Project-Python/assets/47588244/945d8e50-e88d-4a03-84a0-2a015f30ff6e)
+Photo Credit: Visual Capitalist
 
 ## Project Overview:
 Welcome to my web scraping project that extracts data from the [List of Largest Companies in the United States by Revenue](https://en.wikipedia.org/wiki/List_of_largest_companies_in_the_United_States_by_revenue). The project utilizes Python, the Beautiful Soup library for web scraping, and the Pandas library for data manipulation. The scraped data is then saved to a CSV file.
